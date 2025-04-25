@@ -1,0 +1,264 @@
+
+.App
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7fa;
+  
+  
+
+  
+  
+}
+.image
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+  object-fit: cover;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.form
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background-color: rgba(31, 75, 133, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  font-size: larger;
+  font-weight: bold;
+  transition: all 0.3s ease ;
+
+}
+.form:hover
+{
+  box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+  
+}
+table
+{
+  border-collapse: collapse;
+ 
+}
+label{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+
+  width: 200px;
+  font-size: 16px;
+  color: #160f0f;
+}
+.form input
+{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  width: 200px;
+  font-size: 16px;
+  color: #333;
+}
+.form input:hover
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  
+
+}
+.form button
+{
+  
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  background-color: #130606;
+  
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+ 
+.form button:hover
+{
+  background-color: #1279ee;
+}
+.output
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;    
+
+}
+    .form
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: rgba(96, 214, 238, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      font-size: larger;
+      font-weight: bold;
+      transition: all 0.3s ease ;
+        
+    }
+    .searchbar
+    {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+
+    }
+    .searchbar input
+    {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      width: 300px;
+      margin-right: 10px;
+    }
+    .output
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: 
+      #21b48f;
+    }
+    .output table
+    {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+      border: 1px solid #584e4e;
+      font-size: 16px;
+      color: #1b6653;
+      background-color: #130606;
+    }
+    .output table th, .output table td
+    {   
+      text-align: left;
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+    }   
+    .output table th
+    {
+      background-color: #f2f2f2;    
+    }
+    .output table tr:hover
+    {
+      background-color: #1cd887;
+    }
+    .output table button
+    {
+      padding: 5px 10px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: none;
+      
+      color: #fff;
+      cursor: pointer;
+    }
+    .output table button:hover
+    {
+      background-color: #0069d9;
+    }
+    .output table button + button
+    {
+      margin-left: 10px;
+    }
+    .navbar
+    {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    .navbar a
+    {
+      color: #fff;
+      text-decoration: none;
+    }
+    .navbar a:hover
+    {
+      text-decoration: underline;   
+    }
+    .navbar h1
+    {
+      margin: 0;
+    }
+    .navlinks
+    {
+      display: flex;
+      gap: 10px;
+    }
+    .navlinks a
+    {
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: #0861c0;
+      color: #fff;
+      text-decoration: none;
+    }
+    .navlinks a:hover
+    {   
+      background-color: #0069d9;
+   
+    }
+
+    .footer
+    {
+      background-color: #130101;
+      color: #fff;
+      padding: 10px;
+      text-align: center;   
+    }
+    #edit
+    {
+      background-color: #199c2b;
+      
+    }
+    #edit:hover
+    {
+      background-color: #ee1242;
+    }
+    #delete
+    {
+      background-color: #ee1242;
+    }
+   

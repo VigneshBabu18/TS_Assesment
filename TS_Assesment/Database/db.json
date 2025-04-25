@@ -1,0 +1,20 @@
+{
+  "plants": [
+    {
+      "id": "5cd9",
+      "plantName": "Windmill",
+      "plantType": "wind source",
+      "plantEnergyOutput": "electricity",
+      "Maintanence": "Good",
+      "Locationstatus": "India"
+    },
+    {
+      "id": "62e6",
+      "plantName": "nuclearplant",
+      "plantType": "nuclear power",
+      "plantEnergyOutput": "electricity",
+      "Maintanence": "medium",
+      "Locationstatus": "tirunelveli"
+    }
+  ]
+}
